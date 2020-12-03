@@ -1,0 +1,28 @@
+{
+  "name": "ads",
+  "version": "1.0.0",
+  "description": "Projeto feito para o instituto infinet",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellpinho/ads.git"
+  },
+  "author": "Wellingotn Pinho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wellpinho/ads/issues"
+  },
+  "homepage": "https://github.com/wellpinho/ads#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
