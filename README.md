@@ -1,17 +1,6 @@
-<h1 align="center">
-  <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/masterclass.png" width="120px" />
-</h1>
-
 <h3 align="center">
   SQL no Node.js com Sequelize
 </h3>
-
-<p align="center">Nesse vídeo abordo as comparações de SQL vs NoSQL, níveis de abstração de base de dados, migrations, configuração do Sequelize, relacionamentos 1:N, relacionamentos N:N, queries complexas e muito mais!</p>
-
-
-## 👨🏼‍💻 Instrutor
-
-- [Diego Fernandes](https://github.com/diego3g)
 
 ## 🚀 Tecnologias
 
@@ -26,13 +15,19 @@
 ## 🔥 Instalação e execução
 
 1. Faça um clone desse repositório;
-2. Entre na pasta `cd masterclass-nodejs-sql`;
+2. Entre na pasta `ads`;
 3. Rode `yarn` para instalar as dependências;
-4. Altere as credencias dentro de `/src/config/database.js`;
+4. Altere as credencias dentro de `/src/config/database-copy.js`;
 5. Rode `yarn sequelize db:create` para criar o banco de dados;
 6. Rode `yarn sequelize db:migrate` para executar as migrations;
 7. Rode `yarn dev` para iniciar o servidor.
-8. Importe o arquivo `Insomnia_2019-10-16.json` desse repositório no Insomnia;
+
+## AS urls usadas para o CRUD são:
+1. Cursos: ``` http://localhost:400/cursos ``` GET, POST, PUT e DELETE
+2. Turmas: ``` http://localhost:400/turmas ``` GET, POST, PUT e DELETE
+3. Blocos: ``` http://localhost:400/cursos/:id/turma/:id/bloco ``` GET, POST, PUT e DELETE
+4. Disciplina: ``` http://localhost:400/cursos/:id/turma/:id/bloco/:id/disciplina ``` GET, POST, PUT e DELETE
+
 
 ## ⚡️ Como contribuir
 
@@ -49,4 +44,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Feito com 💖 by Rocketseat 👋 [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito com 💖 by Wellingotn Pinho 👋 [Meu portfólio](https://wellpinho.com.br)
